@@ -10,4 +10,4 @@
 
 ## To use the conda command, 
 * add the `~/miniconda3/condabin` directory to the PATH environment variable. You can do this persistently by modifying the `.bashrc` via the command:
-* ~/miniconda3/condabin/conda init`
+* `~/miniconda3/condabin/conda init`
