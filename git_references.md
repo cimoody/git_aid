@@ -26,4 +26,6 @@
 * https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 * `echo file >> .gitignore`
 
-
+## removing deleted file from `git status`
+* https://stackoverflow.com/questions/12987907/git-how-to-commit-a-manually-deleted-file
+* `git rm file`
