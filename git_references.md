@@ -34,7 +34,7 @@
 ## Change the URL on a remote git repository
 * https://stackoverflow.com/questions/2432764/how-to-change-the-uri-url-for-a-remote-git-repository
         
-        `git remote -v
+        git remote -v
         # View existing remotes
         # origin  https://github.com/user/repo.git (fetch)
         # origin  https://github.com/user/repo.git (push)
@@ -45,7 +45,7 @@
         git remote -v
         # Verify new remote URL
         # origin  https://github.com/user/repo2.git (fetch)
-        # origin  https://github.com/user/repo2.git (push)`
+        # origin  https://github.com/user/repo2.git (push)
 
 ## editing .gitignore
 * https://www.atlassian.com/git/tutorials/saving-changes/gitignore
