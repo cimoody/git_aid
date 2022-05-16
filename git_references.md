@@ -57,6 +57,23 @@
     If you have local changes on your `master` that aren't reflected on `origin`, you might want `git rebase origin/master` to make sure your commits are 'on top'.
     Do one or the other, not both. Which to choose depends on the outcome you're after, but rebase is usually what you want.
 
+## push/pull from multiple remote locations
+* https://stackoverflow.com/questions/849308/how-can-i-pull-push-from-multiple-remote-locations
+* You can configure multiple remote repositories with the `git remote` command:
+            `git remote add alt alt-machine:/path/to/repo`
+To fetch from all the configured remotes and update tracking branches, but not merge into `HEAD`, do:
+            `git remote update`
+If it's not currently connected to one of the remotes, it will take time out or throw an error, and go on to the next. You'll have to manually merge from the fetched repositories, or `cherry-pick`, depending on how you want to organize collecting changes.
+
+To fetch the master branch from alt and pull it into your current head, do:
+            `git pull alt master`
+So in fact `git pull` is almost shorthand for `git pull origin HEAD` (actually it looks in the config file to determine this, but you get the idea).
+
+For pushing updates, you have to do that to each repo manually.
+A push was, I think, designed with the central-repository workflow in mind.
+
+
+
 ## editing .gitignore
 * https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 * `echo file >> .gitignore`
