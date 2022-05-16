@@ -6,7 +6,6 @@
 
 * ``git init``
 
-
 ## add a change to git
 * ``git add <filename>``
 * ``git commit -m "comment on change added"``
@@ -50,6 +49,14 @@
 ## tutorials and more advanced branching
 * 'Git Feature Branch Workflow' https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
 * 'Git Branching - Basic Branching and Merging' https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+
+## merging branches after fetch
+* https://stackoverflow.com/questions/14513278/git-merge-after-fetch-how-exactly
+* `git merge origin/master` should work. Since  master   is usually a tracking branch, you could also do `git pull` from that branch and it will do a fetch & merge for you.
+
+    If you have local changes on your `master` that aren't reflected on `origin`, you might want `git rebase origin/master` to make sure your commits are 'on top'.
+    Do one or the other, not both. Which to choose depends on the outcome you're after, but rebase is usually what you want.
+
 ## editing .gitignore
 * https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 * `echo file >> .gitignore`
