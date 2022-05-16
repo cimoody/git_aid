@@ -31,7 +31,7 @@
 * Check tracking of all branches:
     `git branch -vv`
 
-## Change the URL on a remote git repository
+## change the URL on a remote git repository
 * https://stackoverflow.com/questions/2432764/how-to-change-the-uri-url-for-a-remote-git-repository
         
         git remote -v
@@ -47,6 +47,9 @@
         # origin  https://github.com/user/repo2.git (fetch)
         # origin  https://github.com/user/repo2.git (push)
 
+## tutorials and more advanced branching
+* 'Git Feature Branch Workflow' https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+* 'Git Branching - Basic Branching and Merging' https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 ## editing .gitignore
 * https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 * `echo file >> .gitignore`
