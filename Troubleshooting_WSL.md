@@ -8,9 +8,9 @@ https://stackoverflow.com/questions/62314789/no-internet-connection-on-wsl-ubunt
 
 Open Command Prompt as an Administrator and type these commands:
 
-            `netsh winsock reset`
-            `netsh int ip reset all`
-            `netsh winhttp reset proxy`
-            `ipconfig /flushdns`
+            netsh winsock reset
+            netsh int ip reset all
+            netsh winhttp reset proxy
+            ipconfig /flushdns
             
 3. Reboot your machine.
