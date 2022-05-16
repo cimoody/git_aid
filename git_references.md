@@ -21,6 +21,11 @@
 
 ## origin and upstream differences on git with branches
 * https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github
+* https://devconnected.com/how-to-set-upstream-branch-on-git/
+* Set upstream branch using `git push -u`
+  `git push -u <remote> <branch>`
+* Alternatively, use `--set-upstream`
+  `git push --set-upstream <remote> <branch>`
 
 ## editing .gitignore
 * https://www.atlassian.com/git/tutorials/saving-changes/gitignore
