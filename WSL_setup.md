@@ -8,10 +8,10 @@ https://github.com/microsoft/terminal/releases/tag/v1.13.10983.0
 
 3. Link windows to your Linux (do this in your Linux terminal)
 
-`-s  /mnt/c/Users/<your username on windows>  ~/win-home` 
+	`-s  /mnt/c/Users/<your username on windows>  ~/win-home` 
 
-(*This didn't work for me, but I set my directory in the settings to open to `/mnt/c/Users/<your username on windows>`).
-Now you have a folder in your Linux called win-home that is linked to your Windows file system
+		(*This didn't work for me, but I set my directory in the settings to open to `/mnt/c/Users/<your username on windows>`).
+		Now you have a folder in your Linux called win-home that is linked to your Windows file system
 
 
 4. From your Linux terminal download anaconda
@@ -22,9 +22,8 @@ https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
 	  `bash Anaconda3-2021.11-Linux-x86_64.sh`
 
 6. Set the source for your conda
-	   
-	   `source ~/.bashrc`
 
+	   `source ~/.bashrc`
 
 7. upgrade and install git
 
