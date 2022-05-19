@@ -18,7 +18,7 @@
 ## add a new remote to git repo
 * ``git remote add <unique-remote-name> <remote-url>``
 * from https://articles.assembla.com/en/articles/1136998-how-to-add-a-new-remote-to-your-git-repo#:~:text=To%20add%20a%20new%20remote%2C%20use%20the%20git%20remote%20add,tab%20of%20your%20Git%20repo
-
+* https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes - very helpful stuff
 ## origin and upstream differences on git with branches
 * https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github
 * https://devconnected.com/how-to-set-upstream-branch-on-git/ - found this one very helpful
