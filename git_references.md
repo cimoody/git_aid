@@ -1,6 +1,7 @@
 # git references
 
 ## create repository
+1. Create repository from command line https://www.howtogeek.com/devops/how-to-create-and-manage-a-github-repository-from-the-command-line/ OR
 1. Create repository on GitHub with a new name
 2. In local location where you want the folder use, do
 
@@ -20,7 +21,7 @@
 
 ## origin and upstream differences on git with branches
 * https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github
-* https://devconnected.com/how-to-set-upstream-branch-on-git/
+* https://devconnected.com/how-to-set-upstream-branch-on-git/ - found this one very helpful
 * Set upstream branch using `git push -u`:
     `git push -u <remote> <branch>`
 * Alternatively, use `--set-upstream`:
@@ -47,7 +48,7 @@
         # origin  https://github.com/user/repo2.git (push)
 
 ## tutorials and more advanced branching
-* 'Git Feature Branch Workflow' https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+* 'Git Feature Branch Workflow' https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow - very helpful
 * 'Git Branching - Basic Branching and Merging' https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 
 ## merging branches after fetch
@@ -81,3 +82,7 @@
 ## removing deleted file from `git status`
 * https://stackoverflow.com/questions/12987907/git-how-to-commit-a-manually-deleted-file
 * `git rm file`
+
+
+## clearing git history
+* https://www.systutorials.com/how-to-clear-git-history-in-local-and-remote-branches/
