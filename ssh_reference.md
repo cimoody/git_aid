@@ -8,3 +8,4 @@
 * ``                  ls -a .``
 * ``                  # If there is no key then create one``
 * ``                    ssh-keygen -o -t rsa -C "your@email.com"``
+* https://docs.oracle.com/en/cloud/cloud-at-customer/occ-get-started/generate-ssh-key-pair.html
