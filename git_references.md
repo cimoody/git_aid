@@ -80,6 +80,10 @@
 ## mergin select files or folders from one branch to another
 * `git checkout source_branch <path on source branch>`
 * reference https://jasonrudolph.com/blog/2009/02/25/git-tip-how-to-merge-specific-files-from-another-branch/
+* `git checkout dev -- path/to/your/file` # for one or two files - assuming you are in another branch than dev
+* `git checkout dev -- path/to/your/folder` # for a folder
+* `git checkout <commit_hash> <relative_path_to_file_or_dir>` # files and folder from commit hash of another branch
+* reference https://www.tutsway.com/how-to-copy-file-or-folder-from-one-branch-to-another-in-git.php
 
 ## push/pull from multiple remote locations
 * https://stackoverflow.com/questions/849308/how-can-i-pull-push-from-multiple-remote-locations
