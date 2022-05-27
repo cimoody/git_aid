@@ -87,6 +87,43 @@
 * https://stackoverflow.com/questions/12987907/git-how-to-commit-a-manually-deleted-file
 * `git rm file`
 
+## deleting git branch
+* To delete a local branch in Git, you simply run:
+        
+        git branch -d <branch-name>  
+        git branch -D <branch-name>  # Unmerged changes d -> D
+        git push --delete <remote name> <branch name>  # delete a remote branch
+* Example
+        mkdir demo
+        cd demo
+        git init
+        
+        echo hello world > file.txt
+        git add file.txt
+        git commit -m “Add first file” 
+        
+        # create second branch called 'new'
+        git branch new 
+        git branch -d new # delete right away
+        # returns 'Deleted branch new (was c9bd965).'
+        
+        # Create new branch and switch to it
+        git switch -c newer
+        # add some commits to 'newer'
+        echo hello world > file2 && git add . && git commit -m "Add file2"
+        echo hello world > file3 && git add . && git commit -m "Add file3"
+        
+        # Go back to original branch
+        git switch main
+        
+        # Try to delete 'newer'
+        git branch -d newer
+        # returns 'error: The branch ‘newer’ is not fully merged. If you are sure you want to delete it, run 'git branch -D newer.’'
+        git branch -D newer # delete 'newer'
+        
+        # to delete remote branch see reference
+* reference https://www.cloudbees.com/blog/git-delete-branch-how-to-for-both-local-and-remote
+
 
 ## clearing git history
 * https://www.systutorials.com/how-to-clear-git-history-in-local-and-remote-branches/
