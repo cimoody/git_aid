@@ -57,6 +57,10 @@
 
     If you have local changes on your `master` that aren't reflected on `origin`, you might want `git rebase origin/master` to make sure your commits are 'on top'.
     Do one or the other, not both. Which to choose depends on the outcome you're after, but rebase is usually what you want.
+    
+## mergin select files or folders from one branch to another
+* `git checkout source_branch <path on source branch>`
+* reference https://jasonrudolph.com/blog/2009/02/25/git-tip-how-to-merge-specific-files-from-another-branch/
 
 ## push/pull from multiple remote locations
 * https://stackoverflow.com/questions/849308/how-can-i-pull-push-from-multiple-remote-locations
