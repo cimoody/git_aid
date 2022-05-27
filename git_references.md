@@ -1,5 +1,15 @@
 # git references
 
+## basic glossary commands
+* `git init` : Initializes current directory as Git repository
+* `git status` : Shows status of a tree, including modified files
+*  `git add` : Adds files to staging area
+*  `git commit` : Records changes of files from staging area to repository
+*  `git log` : Shows record of commits with messages and SHA identifiers
+*  `git reset` : Resets `HEAD` to a specific commit
+*  `git checkout` : Resotrs working tree files
+*  reference https://www.varonis.com/blog/revert-a-commit-in-git
+
 ## create repository
 1. Create repository from command line https://www.howtogeek.com/devops/how-to-create-and-manage-a-github-repository-from-the-command-line/ OR
 1. Create repository on GitHub with a new name
@@ -11,6 +21,11 @@
 * ``git add <filename>``
 * ``git commit -m "comment on change added"``
 
+## how to revert a commit
+*   `git reset <git-commit-log-hash>` Find commit log hash with `git log`
+* refence https://www.varonis.com/blog/revert-a-commit-in-git
+
+
 ## add change to github repo
 * ``git push origin <main>``
 ** ``<main>`` is the branch name
@@ -19,6 +34,8 @@
 * ``git remote add <unique-remote-name> <remote-url>``
 * from https://articles.assembla.com/en/articles/1136998-how-to-add-a-new-remote-to-your-git-repo#:~:text=To%20add%20a%20new%20remote%2C%20use%20the%20git%20remote%20add,tab%20of%20your%20Git%20repo
 * https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes - very helpful stuff
+
+
 ## origin and upstream differences on git with branches
 * https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github
 * https://devconnected.com/how-to-set-upstream-branch-on-git/ - found this one very helpful
@@ -50,6 +67,8 @@
 ## tutorials and more advanced branching
 * 'Git Feature Branch Workflow' https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow - very helpful
 * 'Git Branching - Basic Branching and Merging' https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+* 'Git Branching and Merging: A Step-By-Step Guide' https://www.varonis.com/blog/git-branching
+* 'How to Merge in Git: Remote and Local Git Repositories Tutorial' https://www.varonis.com/blog/how-to-merge-in-git
 
 ## merging branches after fetch
 * https://stackoverflow.com/questions/14513278/git-merge-after-fetch-how-exactly
